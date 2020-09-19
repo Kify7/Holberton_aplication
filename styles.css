@@ -1,0 +1,221 @@
+  /* IMPORTS */
+@font-face {
+    font-family: DkCrayonCrumble;
+    src: url("/fonts/DkCrayonCrumble-ddll.ttf");
+}
+@font-face {
+    font-family: Lato;
+    src: url("/fonts/Lato-Regular.ttf");
+}
+  /* BOX-SIZING SNIPPET*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* GLOBALES */
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem; /* =1200px*/
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: DkCrayonCrumble;
+    color: white;
+}
+h1 {
+    font-weight: normal;
+    font-size: 90px;
+}
+h2 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 2.5rem;
+    line-height: 2;
+}
+p {
+    font-family: Lato;
+    font-size: 1.4rem;
+    color: lightgray;
+}
+body {
+    background-image: url("https://www.chalkboardcomm.com/dev/wp-content/uploads/2015/10/chalkboard-background.jpg");
+    background-size: cover;
+}
+.home {
+    text-decoration: none;
+}
+.home h1:hover {
+    color: olivedrab;
+}
+/* HEADER */
+header {
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/11/19/49/education-3670453_960_720.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tweets-page {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1540151812223-c30b3fab58e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header h1 {
+    display: flex;
+    margin: 3rem 0 0 2rem;
+}
+nav ul {
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin: 10px;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+}
+nav a:hover {
+    color: olivedrab;
+    font-size: 20.5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.column-container {
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 70%;
+}
+.column2 {
+    width: 30%;
+    float: left;
+}
+section {
+    padding-top: 2rem;
+    justify-content: center;
+}
+article {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 2rem;
+}
+article a{
+    text-decoration: none;
+}
+.card {
+    display: flex;
+    flex-basis: content;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card p {
+    justify-self: center;
+}
+
+.card i {
+    font-size: 3rem;
+    margin: .7rem;
+    color: rgb(81, 199, 199);
+}
+
+.method:hover {
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/00/46/notebook-336634_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(40%);
+}
+.covid:hover {
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/08/15/49/kids-5017862_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(40%);
+}
+.growth:hover {
+    background-image: url("https://cdn.pixabay.com/photo/2018/06/05/15/29/mindset-3455748_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(40%);
+}
+.card h3:hover, .card i:hover, .card p:hover {
+    color: rgb(48, 44, 44);
+}
+aside {
+    padding: 5.5rem;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    padding: 20rem 4rem 20rem 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.exp2 {
+    margin: 4rem;
+}
+
+.exp h2, p {
+    display: inline-block;
+    justify-content: center;
+    padding-bottom: 1rem;
+    
+}
+.exp2 h3, p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.exp2 img {
+    padding-bottom: 2rem;
+    border-radius: 15px;
+}
+.small {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(42, 45, 48);
+    height: 100px;
+    justify-content: center;
+}
+footer p {
+    
+    font-family: Lato;
+    font-size: 1rem;
+    color: white;
+    padding: 2rem;
+    align-self: center;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
